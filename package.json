@@ -1,0 +1,51 @@
+{
+  "name": "@cam96stanley/pop-toast",
+  "version": "0.0.3",
+  "description": "A lightweight, customizable React toast notification library for stacking and timed alerts.",
+  "keywords": [
+    "toast",
+    "react",
+    "notifications",
+    "alert"
+  ],
+  "homepage": "https://github.com/Cam96stanley/pop-toast#readme",
+  "bugs": {
+    "url": "https://github.com/Cam96stanley/pop-toast/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cam96stanley/pop-toast.git"
+  },
+  "license": "ISC",
+  "author": "Cameron Stanley",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.0",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/react": "^19.2.14",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "rollup": "^4.60.0",
+    "rollup-plugin-dts": "^6.4.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tailwindcss": "^4.2.2",
+    "tslib": "^2.8.1",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10"
+  }
+}
